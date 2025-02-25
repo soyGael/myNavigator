@@ -5,6 +5,7 @@ export default function DetailScreen({ route }) {
   const { character } = route.params;
 
   return (
+    // ! Mostrar datos de personaje
     <View style={styles.container}>
       <Image source={{ uri: character.image }} style={styles.image} />
       <Text style={styles.name}>{character.name}</Text>

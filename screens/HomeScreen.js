@@ -26,6 +26,7 @@ export default function HomeScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
+    // ! Uso de Fiatlist para renderizar listas
       <FlatList
         data={characters}
         keyExtractor={(item) => item.id.toString()}
